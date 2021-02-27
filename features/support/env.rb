@@ -8,6 +8,8 @@ require 'rspec'
 require 'rake'
 require 'page-object'
 require 'webdrivers'
+require 'faker'
+require 'net/http'
 require_relative 'site_helper'
 
 World(SiteHelper)
